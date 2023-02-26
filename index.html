@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loteamento</title>
+  <style>
+    rect {
+      cursor: pointer;
+    }
+
+    rect:hover {
+      fill: rgb(159, 233, 159);
+    }
+
+    .display-false {
+      display: none;
+    }
+
+    .vendido {
+      background-color:rgb(240, 84, 64);
+      fill:rgb(240, 84, 64) !important;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <img src="loteamento-shape-2.svg" alt="loteamento" id="svg" onload="fetchSvg(this)">
+  </div>
+  <script>
+    const rectList = document.getElementsByTagName('rect')
+    const textList = document.getElementsByTagName('text')
+
+    var glebasList = []
+    var dadosLoteamento = {}
+    var lotes = []
+    var glebas = []
+
+    const getInformations = () => {
+      let count = 0
+      let inicio = 0
+      let passo = 20
+      while (count < rectList.length) {
+        // debugger
+        for (let j = inicio; j <= passo; j++) {
+          if (passo - j == 20) {
+            rectList[j].addEventListener("click", showGleba)
+            glebasList.push(rectList[j])
+            continue
+          }
+
+          rectList[j].addEventListener("click", showLote)
+          if(lotes[rectList[j].dataset.value].vendido){
+            rectList[j].classList.add('vendido')
+          }
+        }
+        inicio = passo + 1
+        passo += 21
+        count += 21
+      }
+    }
+
+    function showLote(el) {
+      let value = el.currentTarget.dataset.value
+      let lote = getDadosLote(value)
+
+      if(lote.vendido){
+        alert(`Este é o lote ${value}. Ele possui ${lote.largura} metros de largura por ${lote.comprimento} metros de comprimento. O valor dele é ${lote.valor}.`)
+      } else {
+        var result = prompt(`Este é o lote ${value}. Ele possui ${lote.largura} metros de largura por ${lote.comprimento} metros de comprimento. O valor dele é ${lote.valor}. Deseja comprar?`)
+        debugger
+        if(result == 'sim'){
+          lotes[value].vendido = true
+          el.currentTarget.classList.add('vendido')
+        }
+      }
+    }
+
+    const showGleba = (el) => {
+      let gleba = el.currentTarget.dataset.value
+      alert("Esta é a gleba " + gleba)
+    }
+
+    const fetchSvg = (image) => {
+      getDadosLoteamento()
+      
+      fetch(image.src)
+      .then((response) => response.text())
+      .then((response) => {
+        const div = document.createElement('div')
+        div.innerHTML = response
+        const inlineSvg = div.getElementsByTagName('svg')[0]
+        image.parentNode.replaceChild(inlineSvg, image)
+        
+          getInformations()
+          return true
+        })
+    }
+
+    const getDadosLoteamento = () => {
+      fetch('db.json')
+        .then((response) => response.text())
+        .then((response) => {
+          dadosLoteamento = JSON.parse(response)
+          lotes = dadosLoteamento.loteamento.lotes
+          glebas = dadosLoteamento.loteamento.glebas
+        })
+    }
+
+    const getDadosLote = (lote) => {
+      return lotes[lote]
+    }
+  </script>
+</body>
+
+</html>

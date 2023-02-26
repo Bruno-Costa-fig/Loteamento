@@ -1,0 +1,584 @@
+{
+  "loteamento": {
+    "glebas": {
+      "A": {
+        "largura" : 50,
+        "comprimento" : 40
+      },
+      "B": {
+        "largura" : 50,
+        "comprimento" : 40
+      },
+      "C": {
+        "largura" : 50,
+        "comprimento" : 40
+      },
+      "D": {
+        "largura" : 50,
+        "comprimento" : 40
+      }
+    },
+    "lotes": {
+      "A1": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A2": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A3": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A4": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : true
+      },
+      "A5": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : true
+      },
+      "A6": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A7": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A8": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A9": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A10": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A11": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A12": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A13": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A14": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A15": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A16": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A17": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A18": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A19": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "A",
+        "vendido" : false
+      },
+      "A20": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B1": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B2": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B3": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B4": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B5": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B6": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B7": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B8": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B9": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B10": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B11": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B12": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B13": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B14": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B15": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B16": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B17": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B18": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B19": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "B20": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "B",
+        "vendido" : false
+      },
+      "C1": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C2": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C3": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C4": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C5": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C6": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C7": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C8": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C9": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C10": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C11": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C12": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C13": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C14": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C15": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C16": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C17": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C18": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C19": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "C20": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "C",
+        "vendido" : false
+      },
+      "D1": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D2": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D3": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D4": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D5": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D6": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D7": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D8": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D9": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D10": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D11": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D12": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D13": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D14": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D15": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D16": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D17": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D18": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D19": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      },
+      "D20": {
+        "largura" : 5,
+        "comprimento" : 20,
+        "valor" : 30000,
+        "gleba" : "D",
+        "vendido" : false
+      }
+    }
+  }
+}
